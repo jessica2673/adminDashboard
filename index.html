@@ -4,17 +4,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div id="sidebar">
-        
+        <div id="dashIcon" class="sideLink icon">
+            <img src="dashboardIcon.png" alt="">
+            <h1>Dashboard</h1>
+        </div>   
+        <div class="sideLink"></div>
+        <div class="sideLink"><img src="homeIcon.png" class="icon">Home</div>
+        <div class="sideLink"><img src="profileIcon.png" class="icon">Profile</div>
+        <div class="sideLink"><img src="messageIcon.png" class="icon">Messages</div>
+        <div class="sideLink"><img src="historyIcon.png" class="icon">History</div>
+        <div class="sideLink"><img src="taskIcon.png" class="icon">Tasks</div>
+        <div class="sideLink"><img src="comIcon.png" class="icon">Communities</div>
+        <div class="sideLink"></div>
+        <div class="sideLink"><img src="settingIcon.png" class="icon">Settings</div>
+        <div class="sideLink"><img src="supportIcon.png" class="icon">Support</div>
+        <div class="sideLink"><img src="privacyIcon.png" class="icon">Privacy</div>
     </div>
 
-    <div id="header"></div>
+    <div id="header">
+        <div id="search">
+            <button><i class="fa fa-search"></i></button>
+            <input type="text" id="searchbar">  
+        </div>
+        <img src="bellIcon.png" alt="" class="icon pfp" id="bell">
+        <img src="pfp.png" alt="" class="pfp" id="smallPfp">
+        <p id="pfpName">Morgan Oakley</p>
+        <img src="pfp.png" alt="" class="pfp">
+        <div id="profileIntro">
+            <p id="greeting">Hi there,</p>
+            <p>Morgan Oakley(@morgan)</p>
+        </div>
+        <button id="firstbtn">New</button>
+        <button id="secondbtn">Upload</button>
+        <button id="thirdbtn">Share</button>
+    </div>
 
-    <div id="container"></div>
+    <div id="container">
+        <p class="mainIntro">Your Projects</p>
+
+        <div id="cards">
+            <div class="card">
+                <div class="top">
+                    <h3 class="title">Super Cool Project</h3>
+                    <p>Sed tempus ut lactuf ut sfhsjf g erte rttrtr rtert hls awrru fslsf l\swef flweufrhaow dkfhs uefruh.</p>
+                </div>
+                <div class="bottom">
+                    <img src="starIcon.png" alt="" class="icon">
+                    <img src="eyeIcon.png" alt="" class="icon">
+                    <img src="shareIcon.png" alt="" class="icon">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="top">
+                    <h3 class="title">Less Cool Project</h3>
+                    <p>Sed tempus ut lactuf ut wer hryset swefgrys trt fhsjf ghls awrru fslsf l\swef flweufrhaow dkfhs uefruh.</p>
+                </div>
+                <div class="bottom">
+                    <img src="starIcon.png" alt="" class="icon">
+                    <img src="eyeIcon.png" alt="" class="icon">
+                    <img src="shareIcon.png" alt="" class="icon">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="top">
+                    <h3 class="title">Impossible App</h3>
+                    <p>Sed tempus ut lactuf ut sfert jtytjy lkfy sergf vb hsjf ghls awrru fslsf l\swef flweufrhaow dkfhs uefruh.</p>
+                </div>
+                <div class="bottom">
+                    <img src="starIcon.png" alt="" class="icon">
+                    <img src="eyeIcon.png" alt="" class="icon">
+                    <img src="shareIcon.png" alt="" class="icon">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="top">
+                    <h3 class="title">Easy Peasy App</h3>
+                    <p>Sed tempus ut lactuf uhgf e5tyr ukifyu dt sfhsjf ghls awrru fslsf l\swef flweufrhaow dkfhs uefruh.</p>
+                </div>
+                <div class="bottom">
+                    <img src="starIcon.png" alt="" class="icon">
+                    <img src="eyeIcon.png" alt="" class="icon">
+                    <img src="shareIcon.png" alt="" class="icon">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="top">
+                    <h3 class="title">Ad Blocker</h3>
+                    <p>Sed tempus ut lactuf ut sfhsjf uyrghyty jfr rtrt gfgncg ls awrru fslsf l\swef flweufrhaow dkfhs uefruh.</p>
+                </div>
+                <div class="bottom">
+                    <img src="starIcon.png" alt="" class="icon">
+                    <img src="eyeIcon.png" alt="" class="icon">
+                    <img src="shareIcon.png" alt="" class="icon">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="top">
+                    <h3 class="title">Money Maker</h3>
+                    <p>Sed tempus ut lactuf ut sdf fhssfrshgth ev jf ghlsee jhj awhft rru fslsf l\swef flweufrhaow dkfhs uefruh.</p>
+                </div>
+                <div class="bottom">
+                    <img src="starIcon.png" alt="" class="icon">
+                    <img src="eyeIcon.png" alt="" class="icon">
+                    <img src="shareIcon.png" alt="" class="icon">
+                </div>
+            </div>
+        </div>
+
+        <p class="mainIntro">Announcements</p>
+        <div class="announcement">
+            <div class="announcementCard">
+                <h3 class="title">Site Maintenance</h3>
+                <p>Sed tempus ut lactuf ut sfhsjf ghls awrru fslsf l\swef flweufrhaow dkfhs uefruh.</p>
+                 <hr>
+            </div>
+
+            <div class="announcementCard">
+                <h3 class="title">Community Share Day</h3>
+                <p>Sed tempus ut lactuf ut sfhsjf ghls awrru fslsf l\swef flweufrhaow dkfhs uefruh.</p>
+                <hr>
+            </div>
+
+            <div class="announcementCard">
+                <h3 class="title">Updated Privacy Policy</h3>
+                <p>Sed tempus ut lactuf ut sfhsjf ghls awrru fslsf l\swef flweufrhaow dkfhs uefruh.</p>
+            </div>
+        </div>
+        
+        <p class="mainIntro">Trending</p>
+        <div class="trending">
+            <div class="profile">    
+                <img src="pfp.png" alt="" class="pfp">
+                <div>
+                    <p class="handle">@tegan</p>
+                    <p class="description">World Peace Builder</p>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="pfp.png" alt="" class="pfp">
+                <div>
+                    <p class="handle">@morgan</p>
+                    <p class="description">Super Cool Project</p>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="pfp.png" alt="" class="pfp">
+                <div>
+                    <p class="handle">@kendall</p>
+                    <p class="description">Life Changing App</p>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="pfp.png" alt="" class="pfp">
+                <div>
+                    <p class="handle">@alex</p>
+                    <p class="description">No Traffic Maker</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
     
 </body>
 <script src="script.js"></script>
